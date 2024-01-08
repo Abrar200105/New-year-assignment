@@ -27,6 +27,7 @@ button:hover {
 
 /* Header section*/
 
+
 /* banner section */
 
 header .banner {
@@ -62,8 +63,8 @@ header .banner .bannerText h1 {
     font-weight: 900;
     line-height: 95px;
 }
-
 /* Header section closed */
+
 
 /* main section */
 
@@ -100,12 +101,10 @@ header .banner .bannerText h1 {
     font-size: 48px;
     font-weight: 700;
 }
-
 /* Holiday deals section closed */
 
 
 /* welcome section */
-
 .welcome {
     background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Vectorrr.png');
     background-repeat: no-repeat;
@@ -163,7 +162,6 @@ header .banner .bannerText h1 {
     align-items: center;
     padding: 70px 0;
 }
-
 /* welcome section closed */
 
 
@@ -207,5 +205,15 @@ header .banner .bannerText h1 {
     max-width: 424px;
 }
 /* awesome portfolio section closed */
+
+
+/* subscribe newsletter section */
+.subscribesec{
+    /* margin: 120px auto; */
+    margin-top: 200px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+
 
 /* main section closed */
