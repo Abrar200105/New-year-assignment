@@ -15,8 +15,14 @@
     border-radius: 16px;
 }
 
-button:hover{
+button {
+    background: #F00;
     cursor: pointer;
+    transition: all 1s;
+}
+
+button:hover {
+    background: rgb(232, 5, 5);
 }
 
 /* Header section*/
@@ -63,33 +69,33 @@ header .banner .bannerText h1 {
 
 
 /* Holiday deals section */
-.holidayDeals .holidealsContainer {
+.holidealsContainer {
     width: 50%;
     max-width: 800px;
     margin: 0 auto;
     padding: 120px;
 }
 
-.holidayDeals .holidealsContainer .holideals-text {
+.holidealsContainer .holideals-text {
     text-align: center;
     font-family: Inter;
     margin-bottom: 48px;
 }
 
-.holidayDeals .holidealsContainer .holideals-text h1 {
+.holidealsContainer .holideals-text h1 {
     color: #F00;
     font-size: 88px;
     font-weight: 700;
 }
 
-.holidayDeals .holidealsContainer .holideals-text h5 {
+.holidealsContainer .holideals-text h5 {
     color: #F00;
     font-size: 24px;
     font-weight: 500;
     padding: 48px 0 0;
 }
 
-.holidayDeals .holidealsContainer .holideals-text h3 {
+.holidealsContainer .holideals-text h3 {
     color: #070211;
     font-size: 48px;
     font-weight: 700;
@@ -97,9 +103,10 @@ header .banner .bannerText h1 {
 
 /* Holiday deals section closed */
 
+
 /* welcome section */
 
-.welcome{
+.welcome {
     background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Vectorrr.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -156,8 +163,49 @@ header .banner .bannerText h1 {
     align-items: center;
     padding: 70px 0;
 }
+
 /* welcome section closed */
 
 
+/* awesome portfolio section */
+.portfolio .textheader {
+    max-width: 900px;
+    margin-top: 120px;
+}
+
+.portfolio .textheader h4 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.portfolio .textheader h2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.portfolio .textheader p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 50px;
+}
+
+.portfolio .portfolioimage{
+    max-width: 1320px;
+    display: flex;
+    gap: 24px;
+    margin-block: 24px;
+}
+
+.portfolioimage img{
+    max-width: 424px;
+}
+/* awesome portfolio section closed */
 
 /* main section closed */
