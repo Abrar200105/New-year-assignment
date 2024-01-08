@@ -8,12 +8,10 @@
 }
 
 .container {
-    
     width: 82%;
     max-width: 1320px;
     margin: 0 auto;
     border-radius: 16px;
-    /* margin-bottom: 124px; */
 }
 
 button {
@@ -26,11 +24,9 @@ button:hover {
     background: rgb(232, 5, 5);
 }
 
-/* Header section*/
-
+/* Header section start*/
 
 /* banner section */
-
 .banner {
     max-height: 600px;
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/BannerImage.png');
@@ -38,7 +34,6 @@ button:hover {
     background-position: center;
 }
 
-/* banner's text section */
 header .banner .bannerText {
     width: 50%;
     height: 50%;
@@ -65,13 +60,13 @@ header .banner .bannerText h1 {
     line-height: 95px;
 }
 
-/* Header section closed */
+/* Header section end */
 
 
-/* main section */
 
+/* main section start*/
 
-/* Holiday deals section */
+/* Holiday deals section start*/
 .holidealsContainer {
     width: 50%;
     max-width: 800px;
@@ -104,10 +99,11 @@ header .banner .bannerText h1 {
     font-size: 48px;
     font-weight: 700;
 }
-/* Holiday deals section closed */
+/* Holiday deals section end */
 
 
-/* welcome section */
+
+/* welcome section start*/
 .welcome {
     max-height: 600px;
     background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Vectorrr.png');
@@ -166,14 +162,15 @@ header .banner .bannerText h1 {
     align-items: center;
     padding: 70px 0;
 }
-/* welcome section closed */
+/* welcome section end */
 
 
-/* awesome portfolio section */
+/* awesome portfolio section start*/
 .portfolio {
     max-height: 600px;
     margin-bottom: 655px;
 }
+
 .portfolio .textheader {
     max-width: 900px;
     margin-top: 120px;
@@ -213,10 +210,10 @@ header .banner .bannerText h1 {
     max-width: 424px;
     max-height: 450px;
 }
-/* awesome portfolio section closed */
+/* awesome portfolio section end */
 
 
-/* subscribe newsletter section */
+/* subscribe newsletter section start*/
 .subscribesec {
     height: 615px;
     background: rgba(255, 0, 0, 0.05);
@@ -287,5 +284,12 @@ header .banner .bannerText h1 {
     font-size: 20px;
     font-weight: 600;
 }
+/* subscribe newsletter section end*/
 
-/* main section closed */
+/* main section end */
+
+
+
+/* footer section start*/
+
+/* footer section end */
