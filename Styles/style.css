@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=Merriweather:wght@400;700;900&display=swap');
 
+/* common styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -7,9 +9,10 @@
 
 /* Header section*/
 
-    /* banner section */
+/* banner section */
+
 header .banner {
-    height: 600px;
+    /* max-height: 600px; */
     width: 82%;
     max-width: 1320px;
     margin: 0 auto;
@@ -17,35 +20,74 @@ header .banner {
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/BannerImage.png');
     background-repeat: no-repeat;
     background-position: center;
-}   
-    /* banner's text section */
-header .banner .text {
+}
+
+/* banner's text section */
+header .banner .bannerText {
     width: 50%;
     height: 50%;
     max-width: 630px;
     max-height: 245px;
     margin: 0 auto;
-    padding: 177px;
+    padding: 177px 0;
 }
 
-header .banner .text h3 {
+header .banner .bannerText h3 {
     color: #FFF;
     text-align: center;
     font-family: Merriweather;
     font-size: 32px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
 }
 
-header .banner .text h1 {
+header .banner .bannerText h1 {
     color: #FFF;
     text-align: center;
     font-family: Merriweather;
     font-size: 72px;
-    font-style: normal;
     font-weight: 900;
     line-height: 95px;
 }
 
 /* Header section closed */
+
+/* main section */
+
+
+/* Holiday deals section */
+.holidayDeals .holidealsContainer {
+    width: 50%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 120px;
+}
+
+.holidayDeals .holidealsContainer .holideals-text {
+    text-align: center;
+    font-family: Inter;
+    margin-bottom: 48px;
+}
+
+.holidayDeals .holidealsContainer .holideals-text h1 {
+    color: #F00;
+    font-size: 88px;
+    font-weight: 700;
+}
+
+.holidayDeals .holidealsContainer .holideals-text h5 {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 48px 0 0;
+}
+
+.holidayDeals .holidealsContainer .holideals-text h3 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+/* Holiday deals section closed */
+
+
+/* main section closed */
