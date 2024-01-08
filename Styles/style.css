@@ -218,11 +218,74 @@ header .banner .bannerText h1 {
 
 /* subscribe newsletter section */
 .subscribesec {
-    max-height: 600px;
+    height: 615px;
     background: rgba(255, 0, 0, 0.05);
+    margin-bottom: 120px;
 }
-
-
-
+.subscribesec .letterImage{
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+.subscribesec .headingText h2{
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+.subscribesec .headingText p{
+    max-width: 895px;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+.subscribesec .wrapper{
+    width: 648px;
+    max-width: 100%;
+    position: relative;
+    margin-bottom: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.subscribesec .wrapper input{
+    height: 72px;
+    width: 100%;
+    background: #FFF;
+    border-radius: 50px;
+    color: black;
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 400;
+    border:none;
+}
+.subscribesec .wrapper button{
+    width: 210px;
+    border-radius: 0px 50px 50px 0px;
+    border: none;
+    background: #F00;
+    height: 100%;
+    aspect-ratio: 1;
+    position: absolute; 
+    right: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+}
 
 /* main section closed */
