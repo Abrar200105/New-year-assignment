@@ -21,8 +21,12 @@ button {
 }
 
 button:hover {
-    background: rgb(232, 5, 5);
+    background: rgb(5, 213, 232);
 }
+
+/* common styles end */
+
+
 
 /* Header section start*/
 
@@ -99,8 +103,8 @@ header .banner .bannerText h1 {
     font-size: 48px;
     font-weight: 700;
 }
-/* Holiday deals section end */
 
+/* Holiday deals section end */
 
 
 /* welcome section start*/
@@ -162,6 +166,7 @@ header .banner .bannerText h1 {
     align-items: center;
     padding: 70px 0;
 }
+
 /* welcome section end */
 
 
@@ -210,6 +215,7 @@ header .banner .bannerText h1 {
     max-width: 424px;
     max-height: 450px;
 }
+
 /* awesome portfolio section end */
 
 
@@ -219,7 +225,8 @@ header .banner .bannerText h1 {
     background: rgba(255, 0, 0, 0.05);
     margin-bottom: 120px;
 }
-.subscribesec .letterImage{
+
+.subscribesec .letterImage {
     width: 150px;
     height: 150px;
     display: block;
@@ -228,7 +235,8 @@ header .banner .bannerText h1 {
     padding-top: 80px;
     padding-bottom: 40px;
 }
-.subscribesec .headingText h2{
+
+.subscribesec .headingText h2 {
     color: #070211;
     text-align: center;
     font-family: Merriweather;
@@ -236,7 +244,8 @@ header .banner .bannerText h1 {
     font-weight: 900;
     text-transform: capitalize;
 }
-.subscribesec .headingText p{
+
+.subscribesec .headingText p {
     max-width: 895px;
     color: rgba(7, 2, 17, 0.60);
     text-align: center;
@@ -249,7 +258,8 @@ header .banner .bannerText h1 {
     margin-right: auto;
     margin-bottom: 50px;
 }
-.subscribesec .wrapper{
+
+.subscribesec .wrapper {
     width: 648px;
     max-width: 100%;
     position: relative;
@@ -258,7 +268,8 @@ header .banner .bannerText h1 {
     margin-left: auto;
     margin-right: auto;
 }
-.subscribesec .wrapper input{
+
+.subscribesec .wrapper input {
     height: 72px;
     width: 100%;
     background: #FFF;
@@ -267,16 +278,17 @@ header .banner .bannerText h1 {
     font-family: Inter;
     font-size: 25px;
     font-weight: 400;
-    border:none;
+    border: none;
 }
-.subscribesec .wrapper button{
+
+.subscribesec .wrapper button {
     width: 210px;
     border-radius: 0px 50px 50px 0px;
     border: none;
     background: #F00;
     height: 100%;
     aspect-ratio: 1;
-    position: absolute; 
+    position: absolute;
     right: 0;
     color: #FFF;
     text-align: center;
@@ -284,12 +296,73 @@ header .banner .bannerText h1 {
     font-size: 20px;
     font-weight: 600;
 }
+
 /* subscribe newsletter section end*/
+
 
 /* main section end */
 
 
-
 /* footer section start*/
+.foot {
+    /* max-width: 1600px; */
+    height: 610px;
+    background: #070211;
+}
+
+.footcontainer {
+    padding: 120px 140px;
+    /* max-width: 1320px; */
+}
+
+.footcontainer .divone .contact .floatImg {
+    float: left;
+    width: 24px;
+    height: 24px;
+}
+
+.footcontainer .divone .contact {
+    width: 30%;
+    align-items: center;
+}
+
+.footcontainer .divone {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 450;
+    line-height: 40px;
+    margin-bottom: 50px;
+}
+
+.footcontainer .divtwo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    margin: 50px auto;
+}
+
+.footcontainer .divthree {
+    margin-top: 50px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footcontainer .divthree button {
+    border: none;
+    background: none;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
 
 /* footer section end */
