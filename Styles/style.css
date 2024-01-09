@@ -21,7 +21,7 @@ button {
 }
 
 button:hover {
-    background: rgb(5, 213, 232);
+    background: #c402f4;
 }
 
 /* common styles end */
@@ -285,9 +285,7 @@ header .banner .bannerText h1 {
     width: 210px;
     border-radius: 0px 50px 50px 0px;
     border: none;
-    background: #F00;
     height: 100%;
-    aspect-ratio: 1;
     position: absolute;
     right: 0;
     color: #FFF;
@@ -339,7 +337,7 @@ header .banner .bannerText h1 {
     margin-bottom: 50px;
 }
 
-.divone .contact .web a{
+.divone .contact .web a {
     text-decoration: none;
     color: #FFF;
 }
